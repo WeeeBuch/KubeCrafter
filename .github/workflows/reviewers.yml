@@ -6,6 +6,10 @@ on:
   pull_request_review:
     types: [submitted, dismissed]
 
+permissions:
+  statuses: write
+  pull-requests: read
+
 jobs:
   unanimously-approved:
     runs-on: ubuntu-latest
