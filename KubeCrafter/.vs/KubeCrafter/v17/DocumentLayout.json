@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|c:\\users\\kikiz\\desktop\\nomovetootherdesktop\\projekt kubecrafter\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|c:\\users\\kikiz\\desktop\\nomovetootherdesktop\\projekt kubecrafter\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4F20B-855B-4449-B01F-D1725EC13A38}|KubeCrafter\\KubeCrafter.csproj|c:\\users\\kikiz\\desktop\\nomovetootherdesktop\\projekt kubecrafter\\kubecrafter\\kubecrafter\\kubecrafter\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4F20B-855B-4449-B01F-D1725EC13A38}|KubeCrafter\\KubeCrafter.csproj|solutionrelative:kubecrafter\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 220,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml",
+              "RelativeToolTip": "KubeCrafter.WinApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-30T17:29:05.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "KubeCrafter.WinApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T17:29:05.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\KubeCrafter\\Class1.cs",
+              "RelativeDocumentMoniker": "KubeCrafter\\Class1.cs",
+              "ToolTip": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\KubeCrafter\\Class1.cs",
+              "RelativeToolTip": "KubeCrafter\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T17:25:42.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
