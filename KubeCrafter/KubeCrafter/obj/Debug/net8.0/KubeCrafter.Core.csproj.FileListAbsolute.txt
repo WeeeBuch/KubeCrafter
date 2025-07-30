@@ -1,0 +1,12 @@
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\bin\Debug\net8.0\KubeCrafter.Core.deps.json
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\bin\Debug\net8.0\KubeCrafter.Core.dll
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\bin\Debug\net8.0\KubeCrafter.Core.pdb
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\KubeCrafter.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\KubeCrafter.Core.AssemblyInfoInputs.cache
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\KubeCrafter.Core.AssemblyInfo.cs
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\KubeCrafter.Core.csproj.CoreCompileInputs.cache
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\KubeCrafter.Core.sourcelink.json
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\KubeCrafter.Core.dll
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\refint\KubeCrafter.Core.dll
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\KubeCrafter.Core.pdb
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter\obj\Debug\net8.0\ref\KubeCrafter.Core.dll
