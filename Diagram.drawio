@@ -17,7 +17,7 @@
           <mxGeometry x="820" y="475" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LTpMgn2fhMuzDcx3kvT1-3" value="Web&lt;div&gt;ASP .NET&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="645" y="460" width="80" height="80" as="geometry" />
+          <mxGeometry x="640" y="460" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LTpMgn2fhMuzDcx3kvT1-5" value="App&lt;div&gt;WPF&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1025" y="460" width="80" height="80" as="geometry" />
