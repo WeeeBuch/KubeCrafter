@@ -6,6 +6,9 @@ C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\Kube
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\bin\Debug\net8.0\KubeCrafter.Web.runtimeconfig.json
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\bin\Debug\net8.0\KubeCrafter.Web.dll
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\bin\Debug\net8.0\KubeCrafter.Web.pdb
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\bin\Debug\net8.0\KubeCrafter.Core.dll
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\bin\Debug\net8.0\KubeCrafter.Core.pdb
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\KubeCrafter.Web.csproj.AssemblyReference.cache
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\KubeCrafter.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\KubeCrafter.Web.AssemblyInfoInputs.cache
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\KubeCrafter.Web.AssemblyInfo.cs
@@ -21,9 +24,10 @@ C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\Kube
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KubeCrafter.Web.props
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KubeCrafter.Web.props
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\scopedcss\bundle\KubeCrafter.Web.styles.css
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\scopedcss\projectbundle\KubeCrafter.Web.bundle.scp.css
+C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\KubeCraf.B3720CDB.Up2Date
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\KubeCrafter.Web.dll
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\refint\KubeCrafter.Web.dll
 C:\Users\kikiz\Desktop\NoMoveToOtherDesktop\Projekt KubeCrafter\KubeCrafter\KubeCrafter\KubeCrafter.Web\obj\Debug\net8.0\KubeCrafter.Web.pdb
