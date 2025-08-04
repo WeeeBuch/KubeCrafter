@@ -4,6 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="DynamicVariable" link="data:page/id,hqDUjNiKxRSwFqBgx4Qv" id="py9depiOROpdOmusDmSC-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1120" y="750" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OvRGYWNVz8hE8GRUVHzd-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DynamicVariable&lt;/h1&gt;&lt;div&gt;Is our type of variable made to hold any type like string, int or even Dictionary.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="730" width="220" height="120" as="geometry" />
+        </mxCell>
         <UserObject label="Recipe" link="data:page/id,t78YA1gMslNpnmLZrwG5" id="nsWsN7rV3ODZWiUiTW6b-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="1100" y="90" width="120" height="60" as="geometry" />
@@ -16,6 +24,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t78YA1gMslNpnmLZrwG5" name="Recipe">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hqDUjNiKxRSwFqBgx4Qv" name="DynamicVariable">
     <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
