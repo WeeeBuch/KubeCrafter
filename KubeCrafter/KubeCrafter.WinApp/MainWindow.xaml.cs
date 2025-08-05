@@ -20,5 +20,13 @@ namespace KubeCrafter.WinApp
         {
             InitializeComponent();
         }
+
+        #region Theme handling
+        private void ThemeToggleButton_Checked(object sender, RoutedEventArgs e)
+            => ((App)Application.Current).ApplyTheme("Dark");
+
+        private void ThemeToggleButton_Unchecked(object sender, RoutedEventArgs e)
+            => ((App)Application.Current).ApplyTheme("Light");
+        #endregion
     }
 }
