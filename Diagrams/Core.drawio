@@ -112,12 +112,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U5plF3agsknYo9dKK9Mc" name="Dynamic Formater">
-    <mxGraphModel dx="2951" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2431" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F77P0eYqjYumgftxK4_H-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Dynamic Formater&lt;/h1&gt;&lt;div&gt;This class has aditional subclasses to help it work.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="710" y="130" width="340" height="80" as="geometry" />
+        <mxCell id="F77P0eYqjYumgftxK4_H-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Dynamic Formater&lt;/h1&gt;&lt;div&gt;This class has aditional subclasses to help it work.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="130" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F77P0eYqjYumgftxK4_H-2" value="Dynamic Formater SubClasses" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="10" width="530" height="420" as="geometry" />
@@ -131,7 +131,7 @@
         <mxCell id="F77P0eYqjYumgftxK4_H-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="F77P0eYqjYumgftxK4_H-2" source="F77P0eYqjYumgftxK4_H-4" target="F77P0eYqjYumgftxK4_H-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F77P0eYqjYumgftxK4_H-4" value="Output Lines" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="F77P0eYqjYumgftxK4_H-2">
+        <mxCell id="F77P0eYqjYumgftxK4_H-4" value="Output Lines" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="F77P0eYqjYumgftxK4_H-2">
           <mxGeometry x="210" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F77P0eYqjYumgftxK4_H-5" value="Textline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="F77P0eYqjYumgftxK4_H-2">
@@ -147,6 +147,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F77P0eYqjYumgftxK4_H-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F77P0eYqjYumgftxK4_H-10" target="F77P0eYqjYumgftxK4_H-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F77P0eYqjYumgftxK4_H-10" target="F77P0eYqjYumgftxK4_H-158">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F77P0eYqjYumgftxK4_H-10" value="Dynamic Formater" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
@@ -401,6 +404,51 @@
         </mxCell>
         <mxCell id="F77P0eYqjYumgftxK4_H-155" value="returns StringBuilder.ToString()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05263157894736842;" vertex="1" parent="1">
           <mxGeometry x="1490" y="1950" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-158" value="SafeToString" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-160" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Safe To String&lt;/h1&gt;&lt;div&gt;is a helper function that will safely convert any type into string&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="660" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-161" value="IOutputLine" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-162" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;IOutputLine&lt;/h1&gt;&lt;div&gt;is interface used for TextLine and RepeatBlock clases. It contains nothing for now&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="30" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-164" value="TextLine : IOutputLine" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="30" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-165" value="+ Value: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F77P0eYqjYumgftxK4_H-164">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-168" value="RepeatBlock : IOutputLine" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="115" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-169" value="+ Type: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F77P0eYqjYumgftxK4_H-168">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-170" value="+ Var: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F77P0eYqjYumgftxK4_H-168">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-171" value="+ Key: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F77P0eYqjYumgftxK4_H-168">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-172" value="+ Format: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F77P0eYqjYumgftxK4_H-168">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-173" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;TextLine&lt;/h1&gt;&lt;div&gt;represents single line of text&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="19.5" width="180" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-174" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;RepeatBlock&lt;/h1&gt;&lt;div&gt;represent dynamic formating of lists and dictionaries&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="137.5" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-175" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;OutputLineConverter&lt;/h1&gt;&lt;div&gt;is option for json to knew how to handle our dynamic outputs.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="345" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F77P0eYqjYumgftxK4_H-176" value="OutputLineConverter" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="360" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
