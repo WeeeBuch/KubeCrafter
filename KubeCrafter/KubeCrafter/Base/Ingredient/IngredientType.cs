@@ -1,4 +1,4 @@
-﻿namespace KubeCrafter.Core;
+﻿namespace KubeCrafter.Core.Base.Ingredient;
 
 public enum IngredientType
 {

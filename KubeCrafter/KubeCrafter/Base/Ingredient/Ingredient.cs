@@ -1,4 +1,4 @@
-﻿namespace KubeCrafter.Core;
+﻿namespace KubeCrafter.Core.Base.Ingredient;
 
 public class Ingredient
 {
@@ -17,4 +17,10 @@ public class Ingredient
         return $"";
     }
 
+    public override string ToString()
+    {
+        
+
+        return default;
+    }
 }

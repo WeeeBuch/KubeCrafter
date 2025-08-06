@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KubeCrafter.Core
+namespace KubeCrafter.Core.Base.Recipe
 {
     public class Definition
     {
