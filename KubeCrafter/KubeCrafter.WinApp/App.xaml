@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:KubeCrafter.WinApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Themes/Dark.xaml"/>
+                <ResourceDictionary Source="/Styles/ThemeToggleButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
