@@ -1,4 +1,5 @@
 ﻿using KubeCrafter.Core.Base;
+using KubeCrafter.Core.Base.Ingredient;
 using KubeCrafter.Core.Dynamic_Fromating;
 using System;
 using System.Collections.Generic;
@@ -115,7 +116,7 @@ namespace KubeCrafter.Core
 
                 Number n => n.ToString(),
 
-                Ingredient i => i.ToKubeJS(),
+                Ingredient i => i.ToString(),
 
                 DynamicVariable dv => SafeToString(dv.Value),
 

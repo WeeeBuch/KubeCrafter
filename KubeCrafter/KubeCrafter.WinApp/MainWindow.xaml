@@ -5,23 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KubeCrafter.WinApp"
         mc:Ignorable="d" Background="{DynamicResource Background}"
-        Title="KubeCrafter" Height="450" Width="800">
+        Title="KubeCrafter" Height="450" Width="800"
+        WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="50" />
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="50" />
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <ToggleButton x:Name="ThemeToggleButton" Grid.Column="1" Grid.Row="1"
-              Style="{StaticResource ThemeToggleButtonStyle}"
-              IsChecked="True" 
-              Checked="ThemeToggleButton_Checked"
-              Unchecked="ThemeToggleButton_Unchecked" 
+        <!--#region Top Bar-->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="0" Grid.Column="2">
+            <Button Width="40" Height="40" x:Name="btnMinimize" Click="btnMinimize_Click"
+                    Background="Transparent" BorderBrush="Transparent" Foreground="{DynamicResource Foreground}"
+                    >_</Button>
+            <Button Width="40" Height="40" x:Name="btnMaximize" Click="btnMaximize_Click"
+                    Background="Transparent" BorderBrush="Transparent" Foreground="{DynamicResource Foreground}"
+                    >🗖</Button>
+            <Button Width="40" Height="40" x:Name="btnClose" Click="btnClose_Click"
+                    Background="Transparent" BorderBrush="Transparent" Foreground="{DynamicResource Foreground}"
+                    >X</Button>
+        </StackPanel>
+
+        <TextBlock Foreground="{DynamicResource Foreground}">
+            <TextBlock.Text>KubeCrafter</TextBlock.Text>
+            <TextBlock.FontSize>20</TextBlock.FontSize>
+            <TextBlock.VerticalAlignment>Center</TextBlock.VerticalAlignment>
+            <TextBlock.HorizontalAlignment>Left</TextBlock.HorizontalAlignment>
+            <TextBlock.Margin>10 0 0 0</TextBlock.Margin>
+        </TextBlock>
+
+        <ToggleButton x:Name="ThemeToggleButton" Grid.Column="1" Grid.Row="0"
+                      Style="{StaticResource ThemeToggleButtonStyle}"
+                      IsChecked="True" HorizontalAlignment="Left"
+                      Checked="ThemeToggleButton_Checked"
+                      Unchecked="ThemeToggleButton_Unchecked" 
                       BorderThickness="0,0,0,0"/>
+        <!--#endregion-->
+
+        
     </Grid>
 </Window>

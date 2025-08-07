@@ -28,5 +28,28 @@ namespace KubeCrafter.WinApp
         private void ThemeToggleButton_Unchecked(object sender, RoutedEventArgs e)
             => ((App)Application.Current).ApplyTheme("Light");
         #endregion
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove();
+        }
+
+        #region Top bar
+        private void btnMinimize_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void btnMaximize_Click(object sender, RoutedEventArgs e)
+        {
+            if (WindowState == WindowState.Maximized) WindowState = WindowState.Normal;
+            else WindowState = WindowState.Maximized;
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+        #endregion
     }
 }
