@@ -50,6 +50,12 @@
                       BorderThickness="0,0,0,0"/>
         <!--#endregion-->
 
+        <!--#region Main content -->
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2">
+
+            
+        </Grid>
+        <!--#endregion-->
         
     </Grid>
 </Window>
