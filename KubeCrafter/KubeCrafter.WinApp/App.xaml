@@ -8,6 +8,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Themes/Dark.xaml"/>
                 <ResourceDictionary Source="/Styles/ThemeToggleButton.xaml"/>
+                <ResourceDictionary Source="/Styles/BasicButton.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

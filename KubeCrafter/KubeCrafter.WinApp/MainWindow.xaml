@@ -27,14 +27,11 @@
         <!--#region Top Bar-->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="0" Grid.Column="2">
             <Button Width="40" Height="40" x:Name="btnMinimize" Click="btnMinimize_Click"
-                    Background="Transparent" BorderBrush="Transparent" Foreground="{DynamicResource Foreground}"
-                    >_</Button>
+                    Style="{StaticResource BasicButton}">_</Button>
             <Button Width="40" Height="40" x:Name="btnMaximize" Click="btnMaximize_Click"
-                    Background="Transparent" BorderBrush="Transparent" Foreground="{DynamicResource Foreground}"
-                    >🗖</Button>
+                    Style="{StaticResource BasicButton}">🗖</Button>
             <Button Width="40" Height="40" x:Name="btnClose" Click="btnClose_Click"
-                    Background="Transparent" BorderBrush="Transparent" Foreground="{DynamicResource Foreground}"
-                    >X</Button>
+                    Style="{StaticResource BasicButton}">X</Button>
         </StackPanel>
 
         <TextBlock Foreground="{DynamicResource Foreground}">
