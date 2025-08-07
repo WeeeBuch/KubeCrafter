@@ -22,7 +22,7 @@ namespace KubeCrafter.Core.Base
             return "";
         }
 
-        public string ToKubeJS()
+        public string ToJSON()
         {
             return "";
         }
