@@ -7,15 +7,7 @@ public class Ingredient
     public IngredientType Type { get; set; }
     public Number Count { get; set; }
 
-    public string ToKubeJS()
-    {
-        return $"";
-    }
-
-    public string ToJSON()
-    {
-        return $"";
-    }
+    public int FotmatVersion = 0;
 
     public override string ToString()
     {

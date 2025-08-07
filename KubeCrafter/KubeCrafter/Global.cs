@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KubeCrafter.Core.Base.Ingredient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +11,12 @@ namespace KubeCrafter.Core
     {
         public static List<string> PossibleRecipeOutputs = ["KubeJS", "JSON"];
         public static string SelectedOutputFormat = "KubeJS";
+    
+        public static IngredientDefinition IngredientDefinition = new();
+    
+    
+    
+    
+    
     }
 }

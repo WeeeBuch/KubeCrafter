@@ -1,4 +1,5 @@
-﻿using KubeCrafter.Core.Dynamic_Fromating;
+﻿using KubeCrafter.Core.Base;
+using KubeCrafter.Core.Dynamic_Fromating;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -43,6 +44,25 @@ namespace KubeCrafter.Core
                 ?? throw new ArgumentException("Invalid or empty format.");
 
             return Render(outputLines, variable);
+        }
+
+        public static List<string> Format(List<string> formats, Dictionary<string, string> placeHolders)
+        {
+            List<string> newFormats = [];
+
+            foreach (string format in formats) 
+            {
+                string editingFormat = "";
+
+                foreach (KeyValuePair<string, string> placeHolder in placeHolders)
+                {
+                    editingFormat = format.Replace($"<{placeHolder.Key}>", placeHolder.Value);
+                }
+
+                newFormats.Add(editingFormat);
+            }
+
+            return newFormats;
         }
 
         public static string Render(List<IOutputLine> lines, DynamicVariable variable)
