@@ -35,12 +35,12 @@ namespace KubeCrafter.Core.Dynamic_Fromating
                 return block;
             }
 
-            throw new JsonException("Neznámý typ výstupního řádku.");
+            throw new JsonException("Unknown output line type.");
         }
 
         public override void Write(Utf8JsonWriter writer, IOutputLine value, JsonSerializerOptions options)
         {
-            throw new NotImplementedException("Nepodporováno – pouze čtení.");
+            throw new NotImplementedException("Unsupported – read only.");
         }
     }
 }
