@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KubeCrafter.WinApp", "KubeC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubeCrafter.Web", "KubeCrafter.Web\KubeCrafter.Web.csproj", "{0438D21A-FCFA-4449-B487-B3EFBBE5E28E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubeCrafter.AppTests", "KubeCrafter.AppTests\KubeCrafter.AppTests.csproj", "{DC90F5B4-533A-4812-B3CE-A6B4741F9886}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{0438D21A-FCFA-4449-B487-B3EFBBE5E28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0438D21A-FCFA-4449-B487-B3EFBBE5E28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0438D21A-FCFA-4449-B487-B3EFBBE5E28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC90F5B4-533A-4812-B3CE-A6B4741F9886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC90F5B4-533A-4812-B3CE-A6B4741F9886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC90F5B4-533A-4812-B3CE-A6B4741F9886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC90F5B4-533A-4812-B3CE-A6B4741F9886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

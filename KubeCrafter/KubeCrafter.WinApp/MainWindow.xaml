@@ -66,11 +66,38 @@
             <!--#endregion-->
             
             <!--#region First column-->
-            
+            <Grid Grid.RowSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- TextBlock -->
+                    <RowDefinition Height="*"/>
+                    <!-- Border vyplní zbytek -->
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Input" Style="{StaticResource BasicTextBlock}" Grid.Row="0"/>
+
+                <Border Style="{StaticResource BasicBorder}" Grid.Row="1" Margin="1">
+                    <TextBlock Text="Here will be an input textbox for converting Json into KubeJS and for dropping files." 
+                   Style="{StaticResource BasicTextBlock}"/>
+                </Border>
+            </Grid>
             <!--#endregion-->
             
             <!--#region Second column-->
-            
+            <Grid Grid.Column="1" Grid.RowSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Properties" Style="{StaticResource BasicTextBlock}"/>
+ 
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
+                    <ItemsControl x:Name="ItemsList" 
+                      ItemTemplate="none"/>
+                </ScrollViewer>
+
+            </Grid>
             <!--#endregion-->
             
             <!--#region Third column-->
