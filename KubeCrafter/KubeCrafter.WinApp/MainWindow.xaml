@@ -52,7 +52,36 @@
 
         <!--#region Main content -->
         <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2">
-
+            <!--#region Definitions-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <!--#endregion-->
+            
+            <!--#region First column-->
+            
+            <!--#endregion-->
+            
+            <!--#region Second column-->
+            
+            <!--#endregion-->
+            
+            <!--#region Third column-->
+                <!--#region Top-->
+            
+                <!--#endregion-->
+            
+                <!--#region Bottom-->
+            
+                <!--#endregion-->
+            <!--#endregion-->
             
         </Grid>
         <!--#endregion-->

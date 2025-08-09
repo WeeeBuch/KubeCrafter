@@ -29,10 +29,7 @@ namespace KubeCrafter.WinApp
             => ((App)Application.Current).ApplyTheme("Light");
         #endregion
 
-        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            DragMove();
-        }
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) => DragMove();
 
         #region Top bar
         private void btnMinimize_Click(object sender, RoutedEventArgs e)
@@ -46,10 +43,8 @@ namespace KubeCrafter.WinApp
             else WindowState = WindowState.Maximized;
         }
 
-        private void btnClose_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
+        private void btnClose_Click(object sender, RoutedEventArgs e) => Close();
+
         #endregion
     }
 }
