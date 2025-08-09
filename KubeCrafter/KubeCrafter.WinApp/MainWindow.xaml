@@ -135,7 +135,7 @@
 
                         <StackPanel Orientation="Horizontal"
                                         HorizontalAlignment="Right"
-                                        VerticalAlignment="Top"
+                                        VerticalAlignment="bottom"
                                         Margin="5"
                                         Background="Transparent">
                             <Button Content="📋" ToolTip="Copy" Style="{StaticResource IconButton}"
