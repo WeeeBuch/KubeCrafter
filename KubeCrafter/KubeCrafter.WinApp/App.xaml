@@ -7,13 +7,15 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Themes/Dark.xaml"/>
-                
+
                 <ResourceDictionary Source="/Styles/ThemeToggleButton.xaml"/>
                 <ResourceDictionary Source="/Styles/BasicButton.xaml"/>
                 <ResourceDictionary Source="/Styles/BasicTextBlock.xaml"/>
                 <ResourceDictionary Source="/Styles/BasicBorder.xaml"/>
 
-                <ResourceDictionary Source="/Templates/SettingTemplate.xaml"/>
+                <ResourceDictionary Source="Templates/TextTemplate.xaml"/>
+                <ResourceDictionary Source="Templates/NumberTemplate.xaml"/>
+                <ResourceDictionary Source="Templates/ListTemplate.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

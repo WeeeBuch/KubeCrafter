@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\KubeCrafter\KubeCrafter\KubeCrafter.WinApp\App.xaml
-81959778240
+101863484966
 
-6119373746
-198-1431420039
-MainWindow.xaml;Styles\BasicBorder.xaml;Styles\BasicButton.xaml;Styles\BasicTextBlock.xaml;Styles\ThemeToggleButton.xaml;Templates\SettingTemplate.xaml;Themes\Dark.xaml;Themes\Light.xaml;
+7-873625993
+199-21814847
+MainWindow.xaml;Styles\BasicBorder.xaml;Styles\BasicButton.xaml;Styles\BasicTextBlock.xaml;Styles\ThemeToggleButton.xaml;Templates\ListTemplate.xaml;Templates\NumberTemplate.xaml;Templates\TextTemplate.xaml;Themes\Dark.xaml;Themes\Light.xaml;
 
 True
 

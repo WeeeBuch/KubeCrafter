@@ -12,4 +12,8 @@
     <Folder Include="Views\Controls\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KubeCrafter\KubeCrafter.Core.csproj" />
+  </ItemGroup>
+
 </Project>

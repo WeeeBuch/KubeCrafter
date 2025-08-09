@@ -4,13 +4,24 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KubeCrafter.WinApp"
+        xmlns:template="clr-namespace:KubeCrafter.WinApp.Templates"
         mc:Ignorable="d" Background="{DynamicResource Background}"
         Title="KubeCrafter" Height="450" Width="800"
         WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
-    
+
+    <Window.Resources>
+        <!-- Načteme šablony -->
+        <ResourceDictionary>
+            <template:SettingTemplateSelector x:Key="TemplateSelector"
+                                              TextTemplate="{StaticResource TextTemplate}"
+                                              NumberTemplate="{StaticResource NumberTemplate}"
+                                              ListTemplate="{StaticResource ListTemplate}"/>
+        </ResourceDictionary>
+    </Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -91,11 +102,14 @@
                 </Grid.RowDefinitions>
 
                 <TextBlock Text="Properties" Style="{StaticResource BasicTextBlock}"/>
- 
-                <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
-                    <ItemsControl x:Name="ItemsList" 
-                      ItemTemplate="none"/>
-                </ScrollViewer>
+
+                <Border Grid.Row="1">
+                   <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding SettingList}"
+                                      ItemTemplateSelector="{StaticResource TemplateSelector}"/>
+                    </ScrollViewer> 
+                </Border>
+                
 
             </Grid>
             <!--#endregion-->
