@@ -12,7 +12,9 @@
                 <ResourceDictionary Source="/Styles/BasicButton.xaml"/>
                 <ResourceDictionary Source="/Styles/BasicTextBlock.xaml"/>
                 <ResourceDictionary Source="/Styles/BasicBorder.xaml"/>
-
+                <ResourceDictionary Source="/Styles/IconButton.xaml"/>
+                <ResourceDictionary Source="/Styles/BasicTextBox.xaml"/>
+                
                 <ResourceDictionary Source="Templates/TextTemplate.xaml"/>
                 <ResourceDictionary Source="Templates/NumberTemplate.xaml"/>
                 <ResourceDictionary Source="Templates/ListTemplate.xaml"/>

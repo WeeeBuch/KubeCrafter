@@ -3,7 +3,6 @@
 
     <Style x:Key="BasicButton" TargetType="Button">
         <Setter Property="Background" Value="{DynamicResource Background}"/>
-        <!-- Modrá, můžeš změnit -->
         <Setter Property="Foreground" Value="{DynamicResource Foreground}"/>
         <Setter Property="Padding" Value="10 5"/>
         <Setter Property="FontSize" Value="14"/>

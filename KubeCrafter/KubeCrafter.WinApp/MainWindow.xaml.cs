@@ -46,5 +46,15 @@ namespace KubeCrafter.WinApp
         private void btnClose_Click(object sender, RoutedEventArgs e) => Close();
 
         #endregion
+
+        private void CopyToClipboard_Click(object sender, RoutedEventArgs e)
+        {
+            Clipboard.SetText("here will be output as text");
+        }
+
+        private void Export_Click(object sender, RoutedEventArgs e)
+        {
+            // some export method
+        }
     }
 }
