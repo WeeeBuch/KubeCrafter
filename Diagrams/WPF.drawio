@@ -1,9 +1,51 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
-  <diagram name="Stránka-1" id="Dn8pyYxvNX-ThvVvEZ2z">
-    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+  <diagram name="Main" id="Dn8pyYxvNX-ThvVvEZ2z">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1K79-Wz3HIUekp9vx7x-1" target="J1K79-Wz3HIUekp9vx7x-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1K79-Wz3HIUekp9vx7x-1" target="J1K79-Wz3HIUekp9vx7x-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1K79-Wz3HIUekp9vx7x-1" target="J1K79-Wz3HIUekp9vx7x-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-1" value="Directories" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-2" value="Styles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Styles&lt;/h1&gt;&lt;div&gt;Here are all the styles used acros the app&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="175" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-5" value="Templates" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-6" value="Themes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Themes&lt;/h1&gt;&lt;div&gt;Here are all the colors for each theme&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="280" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Templates&lt;/h1&gt;&lt;div&gt;Here are all templates used for dynamicaly genearting UI components&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="390" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
