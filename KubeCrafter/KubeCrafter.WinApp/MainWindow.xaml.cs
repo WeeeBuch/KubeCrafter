@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -14,11 +16,35 @@ namespace KubeCrafter.WinApp
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, INotifyPropertyChanged
     {
+        #region Bindings
+        private ObservableCollection<string> _itemsList;
+        public ObservableCollection<string> ItemsList
+        {
+            get => _itemsList;
+            set { _itemsList = value; OnPropertyChanged(nameof(ItemsList)); }
+        }
+
+        private string _selectedItem;
+        public string SelectedItem
+        {
+            get => _selectedItem;
+            set { _selectedItem = value; OnPropertyChanged(nameof(SelectedItem)); }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
+        #endregion
+
         public MainWindow()
         {
             InitializeComponent();
+            ItemsList = ["Option1", "Option2", "Option3"];
+            DataContext = this;
         }
 
         #region Theme handling

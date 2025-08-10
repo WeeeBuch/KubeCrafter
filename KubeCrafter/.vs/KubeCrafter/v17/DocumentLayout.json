@@ -3,8 +3,27 @@
   "WorkspaceRootPath": "D:\\KubeCrafter\\KubeCrafter\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\styles\\basiccombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\styles\\basiccombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KikiZC\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\styles\\basicbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -17,14 +36,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\styles\\basictextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\styles\\basictextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\templates\\texttemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\templates\\texttemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter.winapp\\templates\\settingtemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C37E4597-6AE8-47DB-9A2E-E8DF4B16BD70}|KubeCrafter.WinApp\\KubeCrafter.WinApp.csproj|solutionrelative:kubecrafter.winapp\\templates\\settingtemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EED4F20B-855B-4449-B01F-D1725EC13A38}|KubeCrafter\\KubeCrafter.Core.csproj|d:\\kubecrafter\\kubecrafter\\kubecrafter\\base\\setting\\settingtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,7 +76,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 220,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,43 +104,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasicComboBox.xaml",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicComboBox.xaml",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\BasicComboBox.xaml",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicComboBox.xaml",
+              "RelativeToolTip": "KubeCrafter.WinApp\\Styles\\BasicComboBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-10T07:36:32.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BasicTextBox.xaml",
-              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicTextBox.xaml",
-              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\BasicTextBox.xaml",
-              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicTextBox.xaml",
-              "RelativeToolTip": "KubeCrafter.WinApp\\Styles\\BasicTextBox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-09T19:40:11.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IconButton.xaml",
-              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\IconButton.xaml",
-              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\IconButton.xaml",
-              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\IconButton.xaml",
-              "RelativeToolTip": "KubeCrafter.WinApp\\Styles\\IconButton.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-09T19:37:16.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SettingTemplateSelector.cs",
-              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\SettingTemplateSelector.cs",
-              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Templates\\SettingTemplateSelector.cs",
-              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\SettingTemplateSelector.cs",
-              "RelativeToolTip": "KubeCrafter.WinApp\\Templates\\SettingTemplateSelector.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T17:21:17.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\App.xaml",
               "RelativeDocumentMoniker": "KubeCrafter.WinApp\\App.xaml",
@@ -145,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "KubeCrafter.WinApp\\MainWindow.xaml",
@@ -157,55 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NumberTemplate.xaml",
-              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\NumberTemplate.xaml",
-              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Templates\\NumberTemplate.xaml",
-              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\NumberTemplate.xaml",
-              "RelativeToolTip": "KubeCrafter.WinApp\\Templates\\NumberTemplate.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-09T17:36:52.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListTemplate.xaml",
-              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\ListTemplate.xaml",
-              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Templates\\ListTemplate.xaml",
-              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\ListTemplate.xaml",
-              "RelativeToolTip": "KubeCrafter.WinApp\\Templates\\ListTemplate.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-09T17:37:14.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SettingType.cs",
-              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter\\Base\\Setting\\SettingType.cs",
-              "RelativeDocumentMoniker": "KubeCrafter\\Base\\Setting\\SettingType.cs",
-              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter\\Base\\Setting\\SettingType.cs",
-              "RelativeToolTip": "KubeCrafter\\Base\\Setting\\SettingType.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T17:29:02.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BasicBorder.xaml",
-              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicBorder.xaml",
-              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\BasicBorder.xaml",
-              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicBorder.xaml",
-              "RelativeToolTip": "KubeCrafter.WinApp\\Styles\\BasicBorder.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-09T16:42:11.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "BasicButton.xaml",
               "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicButton.xaml",
               "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\BasicButton.xaml",
@@ -217,7 +152,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "BasicTextBox.xaml",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicTextBox.xaml",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\BasicTextBox.xaml",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicTextBox.xaml",
+              "RelativeToolTip": "KubeCrafter.WinApp\\Styles\\BasicTextBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T19:40:11.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "KubeCrafter.WinApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T17:29:05.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\KikiZC\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\KikiZC\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Jen pro \u010Dten\u00ED]",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAB4AAAAoAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T20:21:30.862Z",
+              "EditorCaption": " [Jen pro \u010Dten\u00ED]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NumberTemplate.xaml",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\NumberTemplate.xaml",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Templates\\NumberTemplate.xaml",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\NumberTemplate.xaml",
+              "RelativeToolTip": "KubeCrafter.WinApp\\Templates\\NumberTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T17:36:52.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListTemplate.xaml",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\ListTemplate.xaml",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Templates\\ListTemplate.xaml",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\ListTemplate.xaml",
+              "RelativeToolTip": "KubeCrafter.WinApp\\Templates\\ListTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T17:37:14.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\App.xaml.cs",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\App.xaml.cs",
+              "RelativeToolTip": "KubeCrafter.WinApp\\App.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T20:24:26.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IconButton.xaml",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\IconButton.xaml",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\IconButton.xaml",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\IconButton.xaml",
+              "RelativeToolTip": "KubeCrafter.WinApp\\Styles\\IconButton.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T19:37:16.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SettingType.cs",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter\\Base\\Setting\\SettingType.cs",
+              "RelativeDocumentMoniker": "KubeCrafter\\Base\\Setting\\SettingType.cs",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter\\Base\\Setting\\SettingType.cs",
+              "RelativeToolTip": "KubeCrafter\\Base\\Setting\\SettingType.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:29:02.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BasicBorder.xaml",
+              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicBorder.xaml",
+              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\BasicBorder.xaml",
+              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicBorder.xaml",
+              "RelativeToolTip": "KubeCrafter.WinApp\\Styles\\BasicBorder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T16:42:11.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "KubeCrafter.WinApp\\AssemblyInfo.cs",
@@ -229,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "BasicTextBlock.xaml",
               "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Styles\\BasicTextBlock.xaml",
               "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Styles\\BasicTextBlock.xaml",
@@ -241,20 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "KubeCrafter.WinApp\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "KubeCrafter.WinApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwvzgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T17:29:05.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "TextTemplate.xaml",
               "DocumentMoniker": "D:\\KubeCrafter\\KubeCrafter\\KubeCrafter.WinApp\\Templates\\TextTemplate.xaml",
               "RelativeDocumentMoniker": "KubeCrafter.WinApp\\Templates\\TextTemplate.xaml",
@@ -266,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\KubeCrafter\\Class1.cs",
               "ToolTip": "C:\\Users\\kikiz\\Desktop\\NoMoveToOtherDesktop\\Projekt KubeCrafter\\KubeCrafter\\KubeCrafter\\KubeCrafter\\Class1.cs",
