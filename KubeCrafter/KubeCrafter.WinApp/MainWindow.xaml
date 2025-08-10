@@ -71,7 +71,7 @@
 
             <Grid.RowDefinitions>
                 <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
             <!--#endregion-->
 
@@ -128,7 +128,7 @@
                 <ComboBox ItemsSource="{Binding ItemsList}"
                           SelectedItem="{Binding SelectedItem}"
                           Style="{StaticResource BasicComboBox}" VerticalAlignment="Top"
-                          Width="200" Grid.Row="1" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                          Grid.Row="1" Margin="1,1,1,0"/>
             </Grid>
             <!--#endregion-->
 
@@ -138,6 +138,22 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
+
+                <ItemsControl Grid.Row="0" ItemsSource="{Binding Formats}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding}"
+                                    Style="{StaticResource BasicButton}"
+                                    Click="FormatButton_Click"
+                                    Margin="2,0"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
 
                 <Grid Grid.Row="1">
                     <TextBox Text="{Binding OutputText}"

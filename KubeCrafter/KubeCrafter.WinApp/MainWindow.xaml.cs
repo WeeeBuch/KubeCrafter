@@ -38,12 +38,16 @@ namespace KubeCrafter.WinApp
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
+
+        public ObservableCollection<string> Formats { get; }
+
         #endregion
 
         public MainWindow()
         {
             InitializeComponent();
             ItemsList = ["Option1", "Option2", "Option3"];
+            Formats = ["KubeJS", "JSON"];
             DataContext = this;
         }
 
@@ -81,6 +85,16 @@ namespace KubeCrafter.WinApp
         private void Export_Click(object sender, RoutedEventArgs e)
         {
             // some export method
+        }
+
+        private void FormatButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button btn && btn.Content is string format)
+            {
+                // just for now
+                MessageBox.Show($"Selected format: {format}");
+
+            }
         }
     }
 }
