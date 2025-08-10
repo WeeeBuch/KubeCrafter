@@ -1,0 +1,233 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="3">
+  <diagram name="Main" id="Dn8pyYxvNX-ThvVvEZ2z">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1K79-Wz3HIUekp9vx7x-1" target="J1K79-Wz3HIUekp9vx7x-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1K79-Wz3HIUekp9vx7x-1" target="J1K79-Wz3HIUekp9vx7x-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1K79-Wz3HIUekp9vx7x-1" target="J1K79-Wz3HIUekp9vx7x-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-1" value="Directories" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-2" value="Styles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Styles&lt;/h1&gt;&lt;div&gt;Here are all the styles used acros the app&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="175" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-5" value="Templates" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-6" value="Themes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Themes&lt;/h1&gt;&lt;div&gt;Here are all the colors for each theme&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="280" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Templates&lt;/h1&gt;&lt;div&gt;Here are all templates used for dynamicaly genearting UI components&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="390" width="180" height="120" as="geometry" />
+        </mxCell>
+        <UserObject label="App.xaml.cs" link="data:page/id,Ii163SDPVJx-tlhT5MYl" id="J1K79-Wz3HIUekp9vx7x-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="190" y="140" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;App xaml cs&lt;/h1&gt;&lt;div&gt;the main class&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1K79-Wz3HIUekp9vx7x-13" target="J1K79-Wz3HIUekp9vx7x-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1K79-Wz3HIUekp9vx7x-13" target="J1K79-Wz3HIUekp9vx7x-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-13" value="Mainwindow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-14" value="xaml" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="xaml.cs" link="data:page/id,_Y5vlFi6cMQxFblyfoUE" id="J1K79-Wz3HIUekp9vx7x-15">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="300" y="530" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="J1K79-Wz3HIUekp9vx7x-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Main window&lt;/h1&gt;&lt;div&gt;This is the window that will show when tha app is started&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YdzjWFcMVVxSjX247NnU-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;xaml&lt;/h1&gt;&lt;div&gt;this is where the window desing is located&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="180" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ii163SDPVJx-tlhT5MYl" name="App.xaml.cs">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfHXQFZrU_b2o0ua8EjO-2" target="OfHXQFZrU_b2o0ua8EjO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-2" value="ApplyTheme" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Apply Theme&lt;/h1&gt;&lt;div&gt;This is the backlogic for changing the color sets from /Themes and apliing it on app UI&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfHXQFZrU_b2o0ua8EjO-7" target="OfHXQFZrU_b2o0ua8EjO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-7" value="theme: string" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfHXQFZrU_b2o0ua8EjO-15" target="OfHXQFZrU_b2o0ua8EjO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfHXQFZrU_b2o0ua8EjO-9" target="OfHXQFZrU_b2o0ua8EjO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-17" value="none" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OfHXQFZrU_b2o0ua8EjO-16">
+          <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-9" value="Switch" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfHXQFZrU_b2o0ua8EjO-11" target="OfHXQFZrU_b2o0ua8EjO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-11" value="Sets new uri for theme" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-12" value="Nothing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfHXQFZrU_b2o0ua8EjO-9" target="OfHXQFZrU_b2o0ua8EjO-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="390" as="sourcePoint" />
+            <mxPoint x="180" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-15" value="Light&lt;div&gt;Dark&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="475" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfHXQFZrU_b2o0ua8EjO-18" target="OfHXQFZrU_b2o0ua8EjO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-18" value="Removes old theme" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-20" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Remove theme&lt;/h1&gt;&lt;div&gt;This will remove old theme if it is in resource dictionary, if not nothing will be removed&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="680" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfHXQFZrU_b2o0ua8EjO-21" target="OfHXQFZrU_b2o0ua8EjO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-21" value="Apply theme" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Apply theme&lt;/h1&gt;&lt;div&gt;This will add theme set into resource dictionar for app to use&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="850" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;None&lt;/h1&gt;&lt;div&gt;This shoul be imposible to achive because there are only two methods caling this and they have specificaly writen the light or dark for this&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="410" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OfHXQFZrU_b2o0ua8EjO-26" value="End" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.046511627906976744;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1050" width="430" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_Y5vlFi6cMQxFblyfoUE" name="MainWindow">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DYMk_0BSu-Cm--RJHZIJ-2" value="Theme handling region" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="600" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="DYMk_0BSu-Cm--RJHZIJ-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Theme handling methods&lt;/h1&gt;&lt;div&gt;These methods caling app.xaml.cs applytheme methode to change theme&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="DYMk_0BSu-Cm--RJHZIJ-2">
+          <mxGeometry x="180" y="50" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DYMk_0BSu-Cm--RJHZIJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DYMk_0BSu-Cm--RJHZIJ-2" source="DYMk_0BSu-Cm--RJHZIJ-5" target="DYMk_0BSu-Cm--RJHZIJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DYMk_0BSu-Cm--RJHZIJ-10" value="Dark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DYMk_0BSu-Cm--RJHZIJ-8">
+          <mxGeometry x="-0.0083" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DYMk_0BSu-Cm--RJHZIJ-5" value="ThemeToggleButton_Checked" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;" vertex="1" parent="DYMk_0BSu-Cm--RJHZIJ-2">
+          <mxGeometry x="60" y="210" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DYMk_0BSu-Cm--RJHZIJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DYMk_0BSu-Cm--RJHZIJ-2" source="DYMk_0BSu-Cm--RJHZIJ-6" target="DYMk_0BSu-Cm--RJHZIJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DYMk_0BSu-Cm--RJHZIJ-11" value="Light" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DYMk_0BSu-Cm--RJHZIJ-9">
+          <mxGeometry x="-0.075" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DYMk_0BSu-Cm--RJHZIJ-6" value="ThemeToggleButton_Unhecked" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;" vertex="1" parent="DYMk_0BSu-Cm--RJHZIJ-2">
+          <mxGeometry x="340" y="210" width="200" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Apply Theme" link="data:page/id,Ii163SDPVJx-tlhT5MYl" id="DYMk_0BSu-Cm--RJHZIJ-7">
+          <mxCell style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="DYMk_0BSu-Cm--RJHZIJ-2">
+            <mxGeometry x="240" y="370" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="qwL5XU3m8ToMOb8YAHI7-1" value="Window_MouseLeftButtonDown" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;" vertex="1" parent="1">
+          <mxGeometry x="940" y="70" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Window_MouseLeftButtonDown&lt;/h1&gt;&lt;div&gt;This method is used to enable moving the window around the desktop.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="60" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-2" value="Top Bar region" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="170" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Top bar&lt;/h1&gt;&lt;div&gt;This is because the predefined Close, Minimize and Maximize buttons are not goodlooking&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Mtg5BialfoHOOE8-BjA0-2">
+          <mxGeometry x="30" y="40" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-4" value="CopyToClipboard_Click" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05555555555555555;" vertex="1" parent="1">
+          <mxGeometry x="730" y="400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Copy to clipboard&lt;/h1&gt;&lt;div&gt;This method is called when user clicks copy button. This will result in copiing the output of recipe into users clipboard.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="380" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-6" value="Export_Click" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05555555555555555;" vertex="1" parent="1">
+          <mxGeometry x="730" y="505" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Export&lt;/h1&gt;&lt;div&gt;Same as copy to clipboard, this method will export Recipe output into a file.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="935" y="490" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-8" value="FormatButton_Click" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05555555555555555;" vertex="1" parent="1">
+          <mxGeometry x="730" y="605" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtg5BialfoHOOE8-BjA0-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Format change&lt;/h1&gt;&lt;div&gt;This will be caled from dynamic buttons made for showing all posible output formats any recipe has.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="590" width="270" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
