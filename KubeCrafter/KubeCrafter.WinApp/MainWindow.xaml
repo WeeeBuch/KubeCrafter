@@ -4,24 +4,182 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KubeCrafter.WinApp"
+        xmlns:template="clr-namespace:KubeCrafter.WinApp.Templates"
         mc:Ignorable="d" Background="{DynamicResource Background}"
-        Title="KubeCrafter" Height="450" Width="800">
+        Title="KubeCrafter" Height="450" Width="800"
+        WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <template:SettingTemplateSelector x:Key="TemplateSelector"
+                                              TextTemplate="{StaticResource TextTemplate}"
+                                              NumberTemplate="{StaticResource NumberTemplate}"
+                                              ListTemplate="{StaticResource ListTemplate}"/>
+        </ResourceDictionary>
+    </Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="50" />
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="50" />
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <ToggleButton x:Name="ThemeToggleButton" Grid.Column="1" Grid.Row="1"
-              Style="{StaticResource ThemeToggleButtonStyle}"
-              IsChecked="True" 
-              Checked="ThemeToggleButton_Checked"
-              Unchecked="ThemeToggleButton_Unchecked" 
+        <!--#region Top Bar-->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="0" Grid.Column="2">
+            <Button Width="40" Height="40" x:Name="btnMinimize" Click="btnMinimize_Click"
+                    Style="{StaticResource BasicButton}">_</Button>
+            <Button Width="40" Height="40" x:Name="btnMaximize" Click="btnMaximize_Click"
+                    Style="{StaticResource BasicButton}">🗖</Button>
+            <Button Width="40" Height="40" x:Name="btnClose" Click="btnClose_Click"
+                    Style="{StaticResource BasicButton}">X</Button>
+        </StackPanel>
+
+        <TextBlock Foreground="{DynamicResource Foreground}">
+            <TextBlock.Text>KubeCrafter</TextBlock.Text>
+            <TextBlock.FontSize>20</TextBlock.FontSize>
+            <TextBlock.VerticalAlignment>Center</TextBlock.VerticalAlignment>
+            <TextBlock.HorizontalAlignment>Left</TextBlock.HorizontalAlignment>
+            <TextBlock.Margin>10 0 0 0</TextBlock.Margin>
+        </TextBlock>
+
+        <ToggleButton x:Name="ThemeToggleButton" Grid.Column="1" Grid.Row="0"
+                      Style="{StaticResource ThemeToggleButtonStyle}"
+                      IsChecked="True" HorizontalAlignment="Left"
+                      Checked="ThemeToggleButton_Checked"
+                      Unchecked="ThemeToggleButton_Unchecked" 
                       BorderThickness="0,0,0,0"/>
+        <!--#endregion-->
+
+        <!--#region Main content -->
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <!--#region Definitions-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <!--#endregion-->
+
+            <!--#region First column-->
+            <Grid Grid.RowSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- TextBlock -->
+                    <RowDefinition Height="*"/>
+                    <!-- Border vyplní zbytek -->
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Input" Style="{StaticResource BasicTextBlock}" Grid.Row="0"/>
+
+                <Border Style="{StaticResource BasicBorder}" Grid.Row="1" Margin="1">
+                    <TextBlock Text="Here will be an input textbox for converting Json into KubeJS and for dropping files." 
+                   Style="{StaticResource BasicTextBlock}"/>
+                </Border>
+            </Grid>
+            <!--#endregion-->
+
+            <!--#region Second column-->
+            <Grid Grid.Column="1" Grid.RowSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Properties" Style="{StaticResource BasicTextBlock}"/>
+
+                <Border Grid.Row="1" Style="{StaticResource BasicBorder}" Margin="1">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding SettingList}"
+                                      ItemTemplateSelector="{StaticResource TemplateSelector}"/>
+                    </ScrollViewer>
+                </Border>
+
+
+            </Grid>
+            <!--#endregion-->
+
+            <!--#region Third column-->
+            <!--#region Top-->
+            <Grid Grid.Column="3" Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Style="{StaticResource BasicTextBlock}"
+                           Text="Selected Recipe Type"
+                           Grid.Row="0"/>
+
+                <ComboBox ItemsSource="{Binding ItemsList}"
+                          SelectedItem="{Binding SelectedItem}"
+                          Style="{StaticResource BasicComboBox}" VerticalAlignment="Top"
+                          Grid.Row="1" Margin="1,1,1,0"/>
+            </Grid>
+            <!--#endregion-->
+
+            <!--#region Bottom-->
+            <Grid Grid.Column="3" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <ItemsControl Grid.Row="0" ItemsSource="{Binding Formats}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding}"
+                                    Style="{StaticResource BasicButton}"
+                                    Click="FormatButton_Click"
+                                    Margin="2,0"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <Grid Grid.Row="1">
+                    <TextBox Text="{Binding OutputText}"
+                                        IsReadOnly="True" Margin="1"
+                                        TextWrapping="Wrap" Style="{StaticResource BasicTextBox}"
+                                        VerticalScrollBarVisibility="Auto"
+                                        Background="{DynamicResource BackgroundSecondary}"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="bottom"
+                                        Margin="5"
+                                        Background="Transparent">
+                        <Button Content="📋" ToolTip="Copy" Style="{StaticResource IconButton}"
+                                        Click="CopyToClipboard_Click" FontSize="10"
+                                        Width="25" Height="25" Margin="0,0,3,0"/>
+                        <Button Content="⬇" ToolTip="Export" Style="{StaticResource IconButton}"
+                                        Click="Export_Click"
+                                        Width="25" Height="25"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            <!--#endregion-->
+            <!--#endregion-->
+
+        </Grid>
+        <!--#endregion-->
+
     </Grid>
 </Window>

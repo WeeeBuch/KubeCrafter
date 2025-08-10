@@ -11,8 +11,7 @@ public class Number
         After = after;
     }
 
-    public override string ToString()
-    {
-        return $"";
-    }
+    public override string ToString() => $"{Before}.{After}";
+
+
 }

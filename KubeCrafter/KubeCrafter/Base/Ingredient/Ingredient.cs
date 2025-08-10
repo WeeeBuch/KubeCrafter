@@ -1,4 +1,4 @@
-﻿namespace KubeCrafter.Core;
+﻿namespace KubeCrafter.Core.Base.Ingredient;
 
 public class Ingredient
 {
@@ -7,14 +7,12 @@ public class Ingredient
     public IngredientType Type { get; set; }
     public Number Count { get; set; }
 
-    public string ToKubeJS()
-    {
-        return $"";
-    }
+    public int FotmatVersion = 0;
 
-    public string ToJSON()
+    public override string ToString()
     {
-        return $"";
-    }
+        
 
+        return default;
+    }
 }
