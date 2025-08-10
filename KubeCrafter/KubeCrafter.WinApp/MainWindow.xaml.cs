@@ -62,10 +62,7 @@ namespace KubeCrafter.WinApp
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) => DragMove();
 
         #region Top bar
-        private void btnMinimize_Click(object sender, RoutedEventArgs e)
-        {
-            WindowState = WindowState.Minimized;
-        }
+        private void btnMinimize_Click(object sender, RoutedEventArgs e) => WindowState = WindowState.Minimized;
 
         private void btnMaximize_Click(object sender, RoutedEventArgs e)
         {

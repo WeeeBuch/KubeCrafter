@@ -8,13 +8,13 @@ D:\KubeCrafter\KubeCrafter\KubeCrafter.WinApp\obj\Debug\net8.0-windows\
 KubeCrafter.WinApp
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\KubeCrafter\KubeCrafter\KubeCrafter.WinApp\App.xaml
 13-126767006
 
 7-873625993
-199-21814847
+199-726837631
 MainWindow.xaml;Styles\BasicBorder.xaml;Styles\BasicButton.xaml;Styles\BasicComboBox.xaml;Styles\BasicTextBlock.xaml;Styles\BasicTextBox.xaml;Styles\IconButton.xaml;Styles\ThemeToggleButton.xaml;Templates\ListTemplate.xaml;Templates\NumberTemplate.xaml;Templates\TextTemplate.xaml;Themes\Dark.xaml;Themes\Light.xaml;
 
-True
+False
 

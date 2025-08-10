@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KubeCrafter.WinApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4df08669faef8af0a829d851daabdc0803d42c37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27e01403324ff88d78b0d70f9f4c58c12883bfc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("KubeCrafter.WinApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KubeCrafter.WinApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
