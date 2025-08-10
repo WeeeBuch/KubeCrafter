@@ -431,3 +431,7 @@ KubeCrafter/KubeCrafter.Web/obj/Debug/net8.0/
 KubeCrafter/KubeCrafter.WinApp/obj/Debug/net8.0-windows/
 
 KubeCrafter/KubeCrafter/obj/Debug/net8.0/
+
+KubeCrafter/KubeCrafter/bin/Debug/net8.0/
+
+KubeCrafter/KubeCrafter.Web/bin/Debug/net8.0/
