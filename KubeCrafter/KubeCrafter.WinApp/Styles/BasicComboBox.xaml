@@ -10,38 +10,54 @@
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="SnapsToDevicePixels" Value="True"/>
         <Setter Property="Template">
+            
             <Setter.Value>
                 <ControlTemplate TargetType="ComboBox">
-                    <Grid>
-                        <!-- Tlačítko pro otevření -->
+                    <Grid Background="{TemplateBinding Background}">
+
+                        <!-- ToggleButton přes celý ComboBox -->
                         <ToggleButton Name="ToggleButton"
-                                  Grid.Column="2"
-                                  Focusable="false"
-                                  ClickMode="Press"
-                                  IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
-                            <Path Data="M 0 0 L 4 4 L 8 0 Z"
-                              StrokeThickness="1.5"
-                              Fill="{TemplateBinding Foreground}"
-                              HorizontalAlignment="Center"
-                              VerticalAlignment="Center"/>
+                                  Background="Transparent"
+                                  BorderThickness="0" Foreground="{DynamicResource Foreground}"
+                                  IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
+                                  Focusable="False" VerticalContentAlignment="Center"
+                                  ClickMode="Press">
+                            <Border Name="Border" Width="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5" Margin="-1">
+                                <Grid>
+                                    <!-- Text vlevo -->
+                                    <ContentPresenter Name="ContentSite"
+                                                  Margin="{TemplateBinding Padding}"
+                                                  VerticalAlignment="Center"
+                                                  HorizontalAlignment="Left"
+                                                  Content="{TemplateBinding SelectionBoxItem}"
+                                                  ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                                                  IsHitTestVisible="False"/>
+
+                                    <!-- Šipka vpravo -->
+                                    <Path Data="M 0 0 L 4 4 L 8 0 Z"
+                                      Fill="{TemplateBinding Foreground}"
+                                      Stretch="Uniform"
+                                      Width="10" Height="10"
+                                      HorizontalAlignment="Right"
+                                      VerticalAlignment="Center"
+                                      Margin="0,0,10,0"
+                                      IsHitTestVisible="False"/>
+                                </Grid>
+                            </Border>
                         </ToggleButton>
 
-                        <!-- Zobrazený obsah -->
-                        <ContentPresenter Name="ContentSite"
-                                      IsHitTestVisible="False"
-                                      Margin="{TemplateBinding Padding}"
-                                      VerticalAlignment="Center"
-                                      HorizontalAlignment="Left"
-                                      Content="{TemplateBinding SelectionBoxItem}"
-                                      ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"/>
-
-                        <!-- Popup se seznamem -->
+                        <!-- Popup -->
                         <Popup Name="PART_Popup"
                            Placement="Bottom"
                            IsOpen="{TemplateBinding IsDropDownOpen}"
                            AllowsTransparency="True"
                            Focusable="False"
-                           PopupAnimation="Slide">
+                           PopupAnimation="Slide"
+                           MinWidth="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}">
                             <Border Background="{DynamicResource Background}"
                                 BorderBrush="{DynamicResource Accent}"
                                 BorderThickness="2"
@@ -52,6 +68,19 @@
                             </Border>
                         </Popup>
                     </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                            <Setter TargetName="Border" Property="BorderBrush" Value="{DynamicResource Accent}"/>
+                            <Setter TargetName="Border" Property="BorderThickness" Value="3"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition SourceName="ToggleButton" Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Border" Property="BorderBrush" Value="{DynamicResource Foreground}"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
