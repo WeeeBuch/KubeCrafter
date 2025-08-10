@@ -1,30 +1,56 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
-  <diagram name="Stránka-1" id="3uBoML_Z0vApxwViEejm">
-    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="7">
+  <diagram name="Main" id="3uBoML_Z0vApxwViEejm">
+    <mxGraphModel dx="1410" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="DynamicVariable" link="data:page/id,hqDUjNiKxRSwFqBgx4Qv" id="py9depiOROpdOmusDmSC-1">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="1120" y="750" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="OvRGYWNVz8hE8GRUVHzd-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DynamicVariable&lt;/h1&gt;&lt;div&gt;Is our type of variable made to hold any type like string, int or even Dictionary.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OvRGYWNVz8hE8GRUVHzd-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DynamicVariable&lt;/h1&gt;&lt;div&gt;Is our type of variable made to hold any type like string, int or even Dictionary.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1280" y="730" width="220" height="120" as="geometry" />
         </mxCell>
         <UserObject label="Recipe" link="data:page/id,t78YA1gMslNpnmLZrwG5" id="nsWsN7rV3ODZWiUiTW6b-1">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="1100" y="90" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nsWsN7rV3ODZWiUiTW6b-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Recipe&lt;/h1&gt;&lt;div&gt;The main class of this program&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nsWsN7rV3ODZWiUiTW6b-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Recipe&lt;/h1&gt;&lt;div&gt;The main class of this program&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1250" y="80" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jSwqEzFGsP4xh-R7EDi3-1" value="Number" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="460" width="120" height="60" as="geometry" />
+        <UserObject label="Number" link="data:page/id,tS-TYKr6pLmL4njtWuK7" id="jSwqEzFGsP4xh-R7EDi3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="620" y="750" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="aqiyEkS29fCbohRyDA0C-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Number&lt;/h1&gt;&lt;div&gt;Helper variable&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="735" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aqiyEkS29fCbohRyDA0C-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;a class to represent a floating number, used in ingredient&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="820" y="445" width="320" height="90" as="geometry" />
+        <UserObject label="Setting" link="data:page/id,YI6rBQPwx8NrK-7dsSXo" id="jTdZv9STOvw9XY3UWGTQ-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="140" y="90" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jTdZv9STOvw9XY3UWGTQ-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Setting&lt;/h1&gt;&lt;div&gt;Secondary class helping Recipe to hold they settings&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="60" width="180" height="120" as="geometry" />
+        </mxCell>
+        <UserObject label="Ingredient" link="data:page/id,b0zY4UOx8nBC6KK0_vot" id="zMOxep1gGMdiYsYofXOH-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="890" y="460" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tMk_VGYLlpw7JnObfjpC-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Ingredient&lt;/h1&gt;&lt;p&gt;Holds details for ingredients including mod, type and Count&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="430" width="180" height="120" as="geometry" />
+        </mxCell>
+        <UserObject label="IngredientType" link="data:page/id,jamZXUYtW_Kwg3yxd3u6" id="tMk_VGYLlpw7JnObfjpC-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="890" y="590" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tVx1jOdCEB5GuCHNKLwu-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;IngredientType&lt;/h1&gt;&lt;p&gt;Type of ingredient (fluid, item..)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="580" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -39,6 +65,38 @@
   </diagram>
   <diagram id="hqDUjNiKxRSwFqBgx4Qv" name="DynamicVariable">
     <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tS-TYKr6pLmL4njtWuK7" name="Number">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YI6rBQPwx8NrK-7dsSXo" name="Setting">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="b0zY4UOx8nBC6KK0_vot" name="Ingredient">
+    <mxGraphModel dx="1410" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jamZXUYtW_Kwg3yxd3u6" name="IngredientType">
+    <mxGraphModel dx="1410" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
