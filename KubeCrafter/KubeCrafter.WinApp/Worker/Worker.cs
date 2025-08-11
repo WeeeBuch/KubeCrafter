@@ -17,7 +17,7 @@ namespace KubeCrafter.WinApp.Worker
 
             List<string> recipes = Comms.GetRecipeNames();
             window.ItemsList = new ObservableCollection<string>(recipes);
-            window.SelectedItem = window.ItemsList.FirstOrDefault() ?? throw new Exception("Recipes not loaded correctly.");
+            
 
 
 
@@ -32,6 +32,26 @@ namespace KubeCrafter.WinApp.Worker
             
             Comms.RecipeChanged(recipeName);
             
+            List<string> formats = Comms.GetRecipeFormats(recipeName);
+            window.Formats = new ObservableCollection<string>(formats);
+
+
+        }
+
+        public static void FormatSelected(MainWindow window, string format)
+        {
+            if (string.IsNullOrEmpty(format))
+            {
+                throw new ArgumentNullException(nameof(format), "Format cannot be null or empty.");
+            }
+            
+            Comms.ChangeOutputFormat(format);
+        }
+
+        public static void AnyRecipeChange()
+        {
+
+
         }
     }
 }

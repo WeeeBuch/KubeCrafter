@@ -18,5 +18,15 @@ namespace KubeCrafter.WinApp.Communication
 
             // Here will be calling the CORE to update the recipe.
         }
+
+        public static void ChangeOutputFormat(string format)
+        {
+            if (string.IsNullOrEmpty(format))
+            {
+                throw new ArgumentNullException(nameof(format), "Format cannot be null or empty.");
+            }
+
+            // Here will be calling the CORE to change the output format.
+        }
     }
 }

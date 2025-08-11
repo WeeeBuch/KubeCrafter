@@ -41,7 +41,12 @@ namespace KubeCrafter.WinApp
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
-        public ObservableCollection<string> Formats { get; }
+        public ObservableCollection<string> _formats;
+        public ObservableCollection<string> Formats 
+        { 
+            get => _formats; 
+            set { _formats = value; OnPropertyChanged(nameof(Formats)); } 
+        }
 
         #endregion
 
