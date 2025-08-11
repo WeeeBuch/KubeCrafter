@@ -125,7 +125,7 @@
                            Grid.Row="0"/>
 
                 <ComboBox ItemsSource="{Binding ItemsList}"
-                          SelectedItem="{Binding SelectedItem}"
+                          SelectedItem="{Binding SelectedItem}" SelectionChanged="ComboBox_SelectionChanged"
                           Style="{StaticResource BasicComboBox}" VerticalAlignment="Top"
                           Grid.Row="1" Margin="1,1,1,0"/>
             </Grid>

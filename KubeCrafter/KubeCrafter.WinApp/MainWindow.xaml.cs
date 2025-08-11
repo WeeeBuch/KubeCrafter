@@ -10,6 +10,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KubeCrafter.WinApp.Communication;
+using WRK = KubeCrafter.WinApp.Worker.Worker;
 
 namespace KubeCrafter.WinApp
 {
@@ -46,8 +48,9 @@ namespace KubeCrafter.WinApp
         public MainWindow()
         {
             InitializeComponent();
-            ItemsList = ["Option1", "Option2", "Option3"];
-            Formats = ["KubeJS", "JSON"];
+
+            WRK.OnStart(this); // Initialize the worker on startup
+
             DataContext = this;
         }
 
@@ -92,6 +95,17 @@ namespace KubeCrafter.WinApp
                 MessageBox.Show($"Selected format: {format}");
 
             }
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ComboBox? comboBox = sender as ComboBox;
+
+            if (comboBox != null && comboBox.SelectedItem is string selectedRecipe)
+            {
+                WRK.OnRecipeChanged(this, selectedRecipe);
+            }
+
         }
     }
 }
