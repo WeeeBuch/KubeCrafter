@@ -15,10 +15,7 @@
                 <ResourceDictionary Source="/Styles/IconButton.xaml"/>
                 <ResourceDictionary Source="/Styles/BasicTextBox.xaml"/>
                 <ResourceDictionary Source="/Styles/BasicComboBox.xaml"/>
-                
-                <ResourceDictionary Source="Templates/TextTemplate.xaml"/>
-                <ResourceDictionary Source="Templates/NumberTemplate.xaml"/>
-                <ResourceDictionary Source="Templates/ListTemplate.xaml"/>
+                <ResourceDictionary Source="/Styles/BasicSeparatorLine.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

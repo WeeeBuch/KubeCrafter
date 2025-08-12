@@ -12,15 +12,6 @@
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
 
-    <Window.Resources>
-        <ResourceDictionary>
-            <template:SettingTemplateSelector x:Key="TemplateSelector"
-                                              TextTemplate="{StaticResource TextTemplate}"
-                                              NumberTemplate="{StaticResource NumberTemplate}"
-                                              ListTemplate="{StaticResource ListTemplate}"/>
-        </ResourceDictionary>
-    </Window.Resources>
-
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -102,9 +93,8 @@
                 <TextBlock Text="Properties" Style="{StaticResource BasicTextBlock}"/>
 
                 <Border Grid.Row="1" Style="{StaticResource BasicBorder}" Margin="1">
-                    <ScrollViewer VerticalScrollBarVisibility="Auto">
-                        <ItemsControl ItemsSource="{Binding SettingList}"
-                                      ItemTemplateSelector="{StaticResource TemplateSelector}"/>
+                    <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                        <StackPanel x:Name="SettingsPanel" />
                     </ScrollViewer>
                 </Border>
 
