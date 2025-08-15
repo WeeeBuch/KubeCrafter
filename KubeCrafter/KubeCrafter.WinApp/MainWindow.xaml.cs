@@ -99,6 +99,26 @@ namespace KubeCrafter.WinApp
             ];
             BuildControlsFromSettings();
             DataContext = this;
+
+            Ingredient ing = new()
+            {
+                Mod = "minecraft",
+                Name = "stone",
+                Count = new(1, 0),
+                Type = IngredientType.Item
+            };
+            IngredientEditWindow edit = new(ing);
+            edit.ShowDialog();
+
+            if (edit.DialogResult == true)
+            {
+                // Do something with the edited ingredient
+                MessageBox.Show($"Edited Ingredient: {ing}");
+            }
+            else
+            {
+                MessageBox.Show($"Editing was cancelled. {ing}");
+            }
         }
 
         private void BuildControlsFromSettings()
