@@ -49,4 +49,9 @@ public class Number
         Before -= value;
         if (Before < 0) Before = 0;
     }
+
+    public Number DeepCopy()
+    {
+        return new Number(this.Before, this.After);
+    }
 }
