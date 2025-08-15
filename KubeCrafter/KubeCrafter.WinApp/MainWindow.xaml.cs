@@ -10,8 +10,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KubeCrafter.Core.Base.Ingredient;
 using KubeCrafter.Core.Base.Setting;
 using KubeCrafter.WinApp.Templates;
+using KubeCrafter.WinApp.Windows;
 
 namespace KubeCrafter.WinApp
 {
