@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KubeCrafter.Core;
 using KubeCrafter.Core.Base;
 using KubeCrafter.Core.Base.Ingredient;
 using KubeCrafter.Core.Base.Setting;
@@ -60,21 +61,85 @@ namespace KubeCrafter.WinApp.Templates
 
         private UserControl CreateControlForItem(object item)
         {
-            // Rozhodni podle typu, co použít
+            UserControl control;
+
+            switch (item)
+            {
+                case string str:
+                    control = new DefaultTextBox();
+                    ((DefaultTextBox)control).ShowedText = str;
+                    ((DefaultTextBox)control).TextBoxChanged += (s, e) =>
+                    {
+                        if (s is DefaultTextBox textBox)
+                        {
+                            int index = ItemsList.IndexOf(item);
+                            if (index >= 0)
+                            {
+                                ItemsList[index] = textBox.ShowedText;
+                                Setting.Value.Value = ItemsList;
+                            }
+                        }
+                    };
+                    break;
+
+                case Number number:
+                    control = new DefaultNumberUpAndDown();
+                    ((DefaultNumberUpAndDown)control).NumberValue = number.ToString();
+                    ((DefaultNumberUpAndDown)control).NumChanged += (s, e) =>
+                    {
+                        if (s is DefaultNumberUpAndDown numberControl)
+                        {
+                            int index = ItemsList.IndexOf(number);
+                            if (index >= 0)
+                            {
+                                if (numberControl.ToBeAdded < 0)
+                                {
+                                    number.SubtractSmall(-numberControl.ToBeAdded);
+                                }
+                                else
+                                {
+                                    number.AddSmall(numberControl.ToBeAdded);
+                                }
+
+                                numberControl.NumberValue = number.ToString();
+                                numberControl.NumberBox.Text = number.ToString();
+                                ItemsList[index] = number;
+                                Setting.Value.Value = ItemsList;
+                            }
+                        }
+                    };
+
+                    break;
+
+                default:
+                    control = new DefaultTextBox();
+                    ((DefaultTextBox)control).ShowedText = item.ToString() ?? "Null is here";
+                    ((DefaultTextBox)control).TextBoxChanged += (s, e) =>
+                    {
+                        if (s is DefaultTextBox textBox)
+                        {
+                            int index = ItemsList.IndexOf(item);
+                            if (index >= 0)
+                            {
+                                ItemsList[index] = textBox.ShowedText;
+                                Setting.Value.Value = ItemsList;
+                            }
+                        }
+                    };
+                    break;
+            }
+
+            return control;
+
+            /*
             return item switch
             {
-                string str => new TextSettingControl(new Setting { Value = new DynamicVariable(str) }),
+                string str => new DefaultTextBox() { ShowedText = str},
                 int or double or float => new NumberSettingControl(new Setting { Value = new DynamicVariable(item) }),
                 //Ingredient ingredient => new IngredientSettingControl(new Setting { Value = new DynamicVariable(ingredient) }),
                 _ => new TextSettingControl(new Setting { Value = new DynamicVariable(item?.ToString() ?? "") })
             };
-        }
-
-        private void AddItem_Click(object sender, RoutedEventArgs e)
-        {
-            // Defaultní typ nové položky — třeba string
-            ItemsList.Add(string.Empty);
-            BuildItems();
+            */
         }
     }
 }
