@@ -21,7 +21,7 @@ namespace KubeCrafter.WinApp.Templates
     public partial class DefaultTextBox : UserControl
     {
         public string ShowedText { get; set; }
-        public event EventHandler<TextChangedEventArgs> TextBoxChanged;
+        public event EventHandler<EventArgs> TextBoxChanged;
 
         public DefaultTextBox()
         {

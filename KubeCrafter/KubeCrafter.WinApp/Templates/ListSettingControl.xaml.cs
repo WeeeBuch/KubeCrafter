@@ -92,17 +92,16 @@ namespace KubeCrafter.WinApp.Templates
                             int index = ItemsList.IndexOf(number);
                             if (index >= 0)
                             {
-                                if (numberControl.ToBeAdded < 0)
+                                if (e)
                                 {
-                                    number.SubtractSmall(-numberControl.ToBeAdded);
+                                    number.AddSmall(10);
                                 }
                                 else
                                 {
-                                    number.AddSmall(numberControl.ToBeAdded);
+                                    number.SubtractSmall(10);
                                 }
 
                                 numberControl.NumberValue = number.ToString();
-                                numberControl.NumberBox.Text = number.ToString();
                                 ItemsList[index] = number;
                                 Setting.Value.Value = ItemsList;
                             }

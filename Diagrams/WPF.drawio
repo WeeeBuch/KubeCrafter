@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="5">
   <diagram name="Main" id="Dn8pyYxvNX-ThvVvEZ2z">
     <mxGraphModel dx="703" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -41,9 +41,11 @@
         <mxCell id="J1K79-Wz3HIUekp9vx7x-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Styles&lt;/h1&gt;&lt;div&gt;Here are all the styles used acros the app&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1280" y="175" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="J1K79-Wz3HIUekp9vx7x-5" value="Templates" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="Templates" link="data:page/id,MQ_Qn2jP0IJnMCDsIbMs" id="J1K79-Wz3HIUekp9vx7x-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1120" y="390" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="J1K79-Wz3HIUekp9vx7x-6" value="Themes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="290" width="120" height="60" as="geometry" />
         </mxCell>
@@ -527,6 +529,110 @@
         </mxCell>
         <mxCell id="bFYzmB9uaZpFN7dsJNfD-87" value="This is because tags can no have Count" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="bFYzmB9uaZpFN7dsJNfD-23">
           <mxGeometry x="1010" y="1420" width="240" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MQ_Qn2jP0IJnMCDsIbMs" name="Templates">
+    <mxGraphModel dx="703" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Default vs No default&lt;/h1&gt;&lt;div&gt;The Default is used with templates (UserControls) that are the simpliest, on the other hand Templates wihout Defaul means they are more complex and uses Default templates as parts in it self&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-2" value="DefaultTextBox" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="340" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-3" value="+ ShowedText: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-2">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-6" value="+ TextBoxChanged: event EventHandler&amp;lt;EventArgs&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-2">
+          <mxGeometry y="52" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-2">
+          <mxGeometry y="78" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-5" value="+ DefaultTextBox()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-2">
+          <mxGeometry y="86" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-7" value="-&amp;nbsp;TextBox_TextChanged(object, TextChangedEventArgs): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-2">
+          <mxGeometry y="112" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-8" value="Textn showed in UI" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="530" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Pk0bsXF20VrA-c8U-Qr-3" target="8Pk0bsXF20VrA-c8U-Qr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-10" value="Stored method" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Pk0bsXF20VrA-c8U-Qr-6" target="8Pk0bsXF20VrA-c8U-Qr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-12" value="This will change the ShowedText and Invoke the TextChanged event" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Pk0bsXF20VrA-c8U-Qr-7" target="8Pk0bsXF20VrA-c8U-Qr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-14" value="DefaultNumberUpAndDown" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="282" width="380" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-15" value="+ NumberValue: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-14">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-16" value="+ NumChanged: event EventHandler&amp;lt;EventArgs&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-14">
+          <mxGeometry y="52" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-14">
+          <mxGeometry y="78" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-18" value="+ DefaultNumberUpAndDown()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-14">
+          <mxGeometry y="86" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-19" value="-&amp;nbsp;Increment_Click(object,RoutedEventArgs): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-14">
+          <mxGeometry y="112" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-21" value="-&amp;nbsp;Decrement_Click(object,RoutedEventArgs): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-14">
+          <mxGeometry y="138" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-22" value="Value showed in UI" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Pk0bsXF20VrA-c8U-Qr-15" target="8Pk0bsXF20VrA-c8U-Qr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-26" value="These will Invoke NumChanged event with parameters" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="446" width="180" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Pk0bsXF20VrA-c8U-Qr-21" target="8Pk0bsXF20VrA-c8U-Qr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Pk0bsXF20VrA-c8U-Qr-19" target="8Pk0bsXF20VrA-c8U-Qr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-33" value="DefaultIngredient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="340" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-34" value="+ Name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-33">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-35" value="+ StoredIngredient: Ingredient" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-33">
+          <mxGeometry y="52" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-33">
+          <mxGeometry y="78" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-37" value="+&amp;nbsp;DefaulIngredient(Ingredient)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-33">
+          <mxGeometry y="86" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-38" value="- Button_Click(object, RoutedEventArgs)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8Pk0bsXF20VrA-c8U-Qr-33">
+          <mxGeometry y="112" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Pk0bsXF20VrA-c8U-Qr-39" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Default Ingredient&lt;/h1&gt;&lt;div&gt;This is just one button and label that will open the IngredientEditWindow for editing an Ingredient&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="578.5" width="190" height="141" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

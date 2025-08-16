@@ -65,19 +65,18 @@ namespace KubeCrafter.WinApp.Templates
             DefaulNumerUD.NumberValue = Value.ToString();
         }
 
-        public void NumberChanged(object sender, EventArgs e)
+        public void NumberChanged(object sender, bool e)
         {
-            if (DefaulNumerUD.ToBeAdded < 0)
+            if (!e)
             {
-                Value.SubtractSmall(-DefaulNumerUD.ToBeAdded);
+                Value.SubtractSmall(10);
             }
             else 
             {
-                Value.AddSmall(DefaulNumerUD.ToBeAdded);
+                Value.AddSmall(10);
             }  
 
             DefaulNumerUD.NumberValue = Value.ToString();
-            DefaulNumerUD.NumberBox.Text = Value.ToString();
         } 
     }
 }

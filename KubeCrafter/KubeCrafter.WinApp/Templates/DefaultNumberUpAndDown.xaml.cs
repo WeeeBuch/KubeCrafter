@@ -21,9 +21,17 @@ namespace KubeCrafter.WinApp.Templates
     /// </summary>
     public partial class DefaultNumberUpAndDown : UserControl
     {
-        public string NumberValue { get; set; }
-        public int ToBeAdded = 0;
-        public event EventHandler<EventArgs> NumChanged;
+        private string _numberValue;
+        public string NumberValue 
+        { 
+            get => _numberValue; 
+            set 
+            { 
+                _numberValue = value;
+                NumberBox.Text = NumberValue; 
+            } 
+        }
+        public event EventHandler<bool> NumChanged;
         public DefaultNumberUpAndDown()
         {
             InitializeComponent();
@@ -32,16 +40,12 @@ namespace KubeCrafter.WinApp.Templates
 
         private void Increment_Click(object sender, RoutedEventArgs e)
         {
-            ToBeAdded = 10;
-            NumChanged.Invoke(this, EventArgs.Empty);
-            ToBeAdded = 0;
+            NumChanged.Invoke(this, true);
         }
 
         private void Decrement_Click(object sender, RoutedEventArgs e)
         {
-            ToBeAdded = -10;
-            NumChanged.Invoke(this, EventArgs.Empty);
-            ToBeAdded = 0;
+            NumChanged.Invoke(this, false);
         }
     }
 }

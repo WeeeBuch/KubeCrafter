@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using KubeCrafter.Core.Base.Ingredient;
+using KubeCrafter.WinApp.Windows;
 
 namespace KubeCrafter.WinApp.Templates
 {
@@ -30,7 +31,8 @@ namespace KubeCrafter.WinApp.Templates
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            IngredientEditWindow window = new IngredientEditWindow(StoredIngredient);
+            window.ShowDialog();
         }
     }
 }

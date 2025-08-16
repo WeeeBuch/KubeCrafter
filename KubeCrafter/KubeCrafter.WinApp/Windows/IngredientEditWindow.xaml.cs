@@ -76,27 +76,26 @@ namespace KubeCrafter.WinApp.Windows
         }
 
         #region Methods for Boxes
-        private void CountUpDown_NumChanged(object? sender, EventArgs e)
+        private void CountUpDown_NumChanged(object? sender, bool e)
         {
-            if (CountUpDown.ToBeAdded < 0)
+            if (!e)
             {
-                Ing.Count.SubtractSmall(-CountUpDown.ToBeAdded);
+                Ing.Count.SubtractSmall(10);
             }
             else
             {
-                Ing.Count.AddSmall(CountUpDown.ToBeAdded);
+                Ing.Count.AddSmall(10);
             }
 
             CountUpDown.NumberValue = Ing.Count.ToString();
-            CountUpDown.NumberBox.Text = Ing.Count.ToString();
         }
 
-        private void ModTextBox_TextBoxChanged(object? sender, TextChangedEventArgs e)
+        private void ModTextBox_TextBoxChanged(object? sender, EventArgs e)
         {
             Ing.Mod = ModTextBox.ShowedText;
         }
 
-        private void NameTextBox_TextBoxChanged(object? sender, TextChangedEventArgs e)
+        private void NameTextBox_TextBoxChanged(object? sender, EventArgs e)
         {
             Ing.Name = NameTextBox.ShowedText;
         }
