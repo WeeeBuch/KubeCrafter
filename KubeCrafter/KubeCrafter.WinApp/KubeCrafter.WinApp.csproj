@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <PackageIcon>Ico 01.png</PackageIcon>
+    <ApplicationIcon>Assets\Ico 01 noBg.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +15,33 @@
     <EmbeddedResource Remove="Views\**" />
     <None Remove="Views\**" />
     <Page Remove="Views\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Ico 01 noBg.png" />
+    <None Remove="Assets\Ico 01.ico" />
+    <None Remove="Assets\Ico 01.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Ico 01 noBg.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Ico 01.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Ico 01.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Ico 01 noBg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
