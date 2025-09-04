@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="Line" x:Key="BasicSeparatorLine">
+        <Setter Property="Stroke" Value="{DynamicResource BackgroundSecondary}" />
+        <Setter Property="StrokeThickness" Value="5" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="Stretch" Value="Fill" />
+        <Setter Property="Margin" Value="0,10,0,10" />
+    </Style>
+</ResourceDictionary>

@@ -1,26 +1,89 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="7">
   <diagram name="Base Simple" id="WadXY_xlJzFDM5q_0ZeF">
-    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LTpMgn2fhMuzDcx3kvT1-1" value="Base" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="300" width="550" height="400" as="geometry" />
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-1" value="Core" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LTpMgn2fhMuzDcx3kvT1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LTpMgn2fhMuzDcx3kvT1-2" target="LTpMgn2fhMuzDcx3kvT1-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-2" value="Web" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LTpMgn2fhMuzDcx3kvT1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LTpMgn2fhMuzDcx3kvT1-2" target="LTpMgn2fhMuzDcx3kvT1-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-3" value="WPF" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LTpMgn2fhMuzDcx3kvT1-2" value="Core" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="820" y="475" width="110" height="50" as="geometry" />
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-4" value="Code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LTpMgn2fhMuzDcx3kvT1-3" value="Web&lt;div&gt;ASP .NET&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="460" width="80" height="80" as="geometry" />
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-5" value="UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LTpMgn2fhMuzDcx3kvT1-5" value="App&lt;div&gt;WPF&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1025" y="460" width="80" height="80" as="geometry" />
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-6" value="Code behind" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-7" value="Worker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-9" value="Comms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-10" value="Comms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DUaFdqMC16Fsx_ukvFr9-1" target="DUaFdqMC16Fsx_ukvFr9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="260" as="sourcePoint" />
+            <mxPoint x="1000" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DUaFdqMC16Fsx_ukvFr9-3" target="DUaFdqMC16Fsx_ukvFr9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="270" as="sourcePoint" />
+            <mxPoint x="1100" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-18" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DUaFdqMC16Fsx_ukvFr9-10" target="DUaFdqMC16Fsx_ukvFr9-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="950" y="690" as="sourcePoint" />
+            <mxPoint x="1050" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DUaFdqMC16Fsx_ukvFr9-10" target="DUaFdqMC16Fsx_ukvFr9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="550" as="sourcePoint" />
+            <mxPoint x="820" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DUaFdqMC16Fsx_ukvFr9-7" target="DUaFdqMC16Fsx_ukvFr9-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="620" as="sourcePoint" />
+            <mxPoint x="1030" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DUaFdqMC16Fsx_ukvFr9-6" target="DUaFdqMC16Fsx_ukvFr9-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="470" as="sourcePoint" />
+            <mxPoint x="1090" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DUaFdqMC16Fsx_ukvFr9-6" target="DUaFdqMC16Fsx_ukvFr9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="430" as="sourcePoint" />
+            <mxPoint x="1100" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UI&lt;/h1&gt;&lt;div&gt;This is representation of all&amp;nbsp; visual components shown in app&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="295" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Code behind&lt;/h1&gt;&lt;div&gt;This representing all button preses, textbox changes and other events happening in UI&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="410" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Worker&lt;/h1&gt;&lt;div&gt;This is a set of methods used when recipe changes or output format is changed and events like this&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="520" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DUaFdqMC16Fsx_ukvFr9-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Comms&lt;/h1&gt;&lt;div&gt;Are methods used to communicate between CORE and WPF or Web&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="750" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
