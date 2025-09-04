@@ -34,14 +34,20 @@
                     Style="{StaticResource BasicButton}">X</Button>
         </StackPanel>
 
-        <TextBlock Foreground="{DynamicResource Foreground}">
-            <TextBlock.Text>KubeCrafter</TextBlock.Text>
-            <TextBlock.FontSize>20</TextBlock.FontSize>
-            <TextBlock.VerticalAlignment>Center</TextBlock.VerticalAlignment>
-            <TextBlock.HorizontalAlignment>Left</TextBlock.HorizontalAlignment>
-            <TextBlock.Margin>10 0 0 0</TextBlock.Margin>
-        </TextBlock>
+        <StackPanel Grid.Column="0" Orientation="Horizontal">
+            <!-- Image Source="/Assets/Ico 01 noBg.png" MaxHeight="35" Margin="5" Height="35"/-->
 
+            <TextBlock Foreground="{DynamicResource Foreground}">
+                <TextBlock.Text>KubeCrafter</TextBlock.Text>
+                <TextBlock.FontSize>20</TextBlock.FontSize>
+                <TextBlock.VerticalAlignment>Center</TextBlock.VerticalAlignment>
+                <TextBlock.HorizontalAlignment>Left</TextBlock.HorizontalAlignment>
+                <TextBlock.Margin>10 0 0 0</TextBlock.Margin>
+            </TextBlock>
+
+        </StackPanel>
+        
+        
         <ToggleButton x:Name="ThemeToggleButton" Grid.Column="1" Grid.Row="0"
                       Style="{StaticResource ThemeToggleButtonStyle}"
                       IsChecked="True" HorizontalAlignment="Left"
